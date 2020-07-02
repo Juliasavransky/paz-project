@@ -195,18 +195,20 @@ display: table;
     border-radius: 0 0 10% 0;
   }
 
+  /*** baners ***/
+
   .baners{
     display: flex;
     Justify-content:flex-end;
   }
   .cube{
     position: relative;
-    padding:6px
-
+    padding:6px;
+    margin-top: 6px;
   }
  .cube> h3{
   position: absolute;
-  top:-4px;
+  top:2px;
   right: 26px;
   font-size: 14px;
   color: #575757;
@@ -226,6 +228,10 @@ display: table;
   top:180px;
   color: #72716d;
   font-size: 13px;
+  text-decoration: underline;
+ }
+ .cube> a:hover{
+   color: #005ca0;
  }
  #mapa{
   position: absolute;
@@ -256,3 +262,56 @@ display: table;
   color: #72716d;
   font-size: 13px;
 }
+
+.cube> ul> li> a:hover{
+  color: #005ca0;
+  
+}
+.cube> ul> li> a{
+  text-decoration: underline;
+}
+
+footer{
+  width: 100%;
+  height: 38px;
+  position: fixed;
+  z-index: 999999;
+  bottom: 0px;
+  background-color: #808080;
+}
+.manu{
+  font-size: 14px;
+  margin-top: 16px; 
+}
+.manu> ul{
+  color: #fff;
+}
+.manu> ul> li>a{
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 1;
+
+}
+
+.manu> ul> li>a::after{
+  clear: both;
+}
+.manu> ul> li>a:hover{
+  color: #005ca0;
+}
+#red{
+  color: red;
+}
+#red:hover{
+  color: #005ca0;
+}
+.manu> ul> li>.sep{
+  margin: 0 5px;
+  color: #fff;
+  
+}
+
+
