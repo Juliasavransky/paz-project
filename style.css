@@ -2,56 +2,51 @@
 /****** body ******/
 /******************/
 body {
- text-align: right;
- direction: rtl;
- font-family: 'Arial (Hebrew)', Arial;
- padding-bottom: 38px; 
- background: #fff 
-}
-h1 {
- font-size: 15px;
- font-weight: bold;
- border-bottom: 1px solid #cbcbcb;
- margin-bottom: 12px;
- padding-bottom: 4px;
-}
-
-h2 {
- font-size: 12px;
- font-weight: bold;
- color: #005ca0;
- }
-
-p {
- margin-bottom: 12px;
- text-align: justify; 
- }
-.margins {
-  width: 900px;
+  text-align: right;
+  direction: rtl;
+  font-family: 'Arial (Hebrew)', Arial;
+  padding-bottom: 38px; 
+  background: #fff 
+  padding: 0;
   margin: 0;
-  padding-bottom: 30px;
+
  }
-a {
-    text-decoration: none;
+ .parts{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   height: 105px;
+   background-color: #a5a5a5;
+   position: absolute;
  }
-a:hover { 
-    text-decoration: underline; 
-    color: #005CA0;
+ 
+ p {
+  margin-bottom: 12px;
+  text-align: justify; 
+  }
+  
+ .margins {
+  width: 900px;
+  margin:auto; 
+  padding-bottom: 30px; 
+    
+  }
+ 
+ a:focus{
+  outline: thin dotted silver;
  }
-a:focus{
- outline: thin dotted silver;
-}
-a:active{
-border-width:1px;
-border-style:dotted;
-}
-ul li { 
-padding:0 12px 0px 0px; 
-list-style: none;
-margin-left:0px; 
-min-height:auto;
-margin-bottom: 3px;
+ a:active{
+ border-width:1px;
+ border-style:dotted;
  }
+ 
+ ul li { 
+ padding:0 12px 0px 0px; 
+ list-style: none;
+ margin-left:0px; 
+ min-height:auto;
+ margin-bottom: 3px;
+  }
 
 /*** heder ***/
 .heder{
@@ -89,10 +84,6 @@ display: table;
     bottom: -20px;
     right: -8px;
      }
-   
-   nav > ul{
-    border-top: 1px solid #dedede;
-   }
    
    nav > ul > li .dropdown{
     display: block;
@@ -136,6 +127,44 @@ display: table;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     float: right; 
     }
+div .search{
+  position: relative;
+  width: 200px;
+  height: 20px;
+}
+form{
+  position: absolute;
+  top: 10px;
+  width: 152px;
+  display: block;
+  right:720px;
+}
+#search{
+  position: absolute;
+  top:0px;
+  height:25px;
+  width:186px;
+  left:-18px;
+}
+#button{
+position: absolute;
+top:0px;
+ height:26px;
+ left:-18px;
+}
+
+.search> form >a > label{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top:6px;
+  left:180px;
+}
+
+
+
 
   /******* rectangle *******/
 
@@ -270,6 +299,7 @@ display: table;
 .cube> ul> li> a{
   text-decoration: underline;
 }
+/********footer*********/
 
 footer{
   width: 100%;
@@ -279,10 +309,12 @@ footer{
   bottom: 0px;
   background-color: #808080;
 }
+
 .manu{
   font-size: 14px;
   margin-top: 16px; 
-}
+  }
+
 .manu> ul{
   color: #fff;
 }
@@ -293,7 +325,6 @@ footer{
   outline: none;
   font-size: 14px;
   line-height: 1;
-
 }
 
 .manu> ul> li>a::after{
@@ -309,9 +340,15 @@ footer{
   color: #005ca0;
 }
 .manu> ul> li>.sep{
-  margin: 0 5px;
-  color: #fff;
-  
+ margin: 0 5px;
+color:white;
+}
+.manu> ul> li>a>img{
+  display: block;
+  position: relative;
+  bottom: 2px;
+  width: 18px; 
+  height: 18px; 
 }
 
 
