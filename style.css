@@ -142,27 +142,61 @@ display: table;
   div .upper-rectangle{
   display: flex;
   Justify-content:flex-end;
-
-  
   }
+
   .rectangle{
     margin-top: 130px;
     width: 293px;
     height: 355px;
     padding: 7px;
     position: relative;
-
   }
+
   .text-box{
     position: absolute;
-    top:255px;
-    right:17px;
-    
+    top:257px;
+    right:14px;
   }
+.rectangle > h3{
+ position: absolute;
+ top:248px;
+ right:22px;
+ color:white;
+ font-size: 14px;
+ font-weight: bold;
+ }
+ .rectangle > p{
+  position: absolute;
+  width: 230px;
+  top:280px;
+  right:22px;
+  color:white;
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 1;
+ }
+
+ .rectangle > a{
+  position: absolute;
+  width: 230px;
+  top:330px;
+  right:200px;
+  color:white;
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 1;
+ }
+
+ .rectangle > a:hover{
+   color: #005ca0;
+   text-decoration: underline;
+ }
   .rectangle > img{
     border-radius: 0 0 10% 0;
   }
   
+
+
   .baners{
     display: flex;
     Justify-content:flex-end;
