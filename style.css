@@ -194,14 +194,34 @@ display: table;
   .rectangle > img{
     border-radius: 0 0 10% 0;
   }
-  
-
 
   .baners{
     display: flex;
     Justify-content:flex-end;
-    padding: 7px;
-    border-radius: 10%;
   }
- 
+  .cube{
+    position: relative;
+  }
+ .cube> h3{
+  position: absolute;
+  top:-4px;
+  right: 26px;
+  font-size: 14px;
+  color: #575757;
+ }
+ .cube> .pic{
+   position: absolute;
+   z-index:1;
+   right:23px;
+   top:50px;
+   width:250px;
+   height:110px;
+ }
   
+ .cube> a{
+  position: absolute;
+  right:180px;
+  top:180px;
+  color: #72716d;
+  font-size: 13px;
+ }
