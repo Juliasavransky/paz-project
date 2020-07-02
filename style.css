@@ -1,3 +1,6 @@
+/******************/
+/****** body ******/
+/******************/
 body {
  text-align: right;
  direction: rtl;
@@ -49,3 +52,33 @@ margin-left:0px;
 min-height:auto;
 margin-bottom: 3px;
  }
+/*** heder ***/
+.heder{
+ float: right;
+ width: 122px;
+ margin-left: 22px;
+ background-color: #a5a5a5;
+}
+
+nav > ul{
+ border-top: 1px solid #dedede;
+}
+nav > ul > li{
+ display: block;
+ width: 122px; 
+ min-height: 36px; 
+} 
+nav > ul > li> a{
+ display: block;
+ width: 110px;
+ height: 36px; 
+ overflow:hidden;
+ padding-right: 12px; 
+ font-size: 13px;
+ margin-bottom: 4px; 
+ color: #5c5c5c;
+ line-height: 32px;
+ }
+
+
+  
