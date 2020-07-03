@@ -325,7 +325,18 @@ div .upper-rectangle {
 .cube:hover .top {
   display: inline;
 }
-
+.top-b{
+  display: none;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  z-index: 99;
+  width:10px;
+  height:10px;
+}
+.cube:hover .top-b {
+  display: inline;
+}
 .cube>a {
   position: absolute;
   right: 180px;
