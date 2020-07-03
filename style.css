@@ -48,49 +48,63 @@ body {
  margin-bottom: 3px;
   }
 
-/*** heder ***/
-.heder{
+  /*********************************** heder********************** */
+
+  .heder{
     float: right; 
     margin-left: 22px;
     background-color: #a5a5a5;
-    width: 100%;
+    width: 900px;
     height: 105px;
     position: relative;
-   }
-   .heder::after{
-        content: "";
-        clear: both;
-        display: table;
-   }
-   .dropdown > .inner > li > a{
-    font-size: 12px;
-    font-weight: bold;
-    color: white;
-   }
-   .dropdown{
+     }
+  
+  .heder::after{
+    content: "";
+    clear: both;
+    display: table;
+     }
+     
+  nav{
+    height: 133px;
+    position: absolute;
+    top: 50px;
+    left:-10px;
+  }
+
+.dropdown > .inner > li > a{
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  }
+  nav> ul>{
+    position: absolute;
+  }
+
+  .dropdown{
       float: right; 
-   }
- .dropdown::after{
-content: "";
- clear: both;
-display: table; 
+      height: 100%;
+      display: block;
+      height: 100%;
  }
-   
-   .logo{
+  
+  .dropdown::after{
+  content: "";
+  clear: both;
+  display: table; 
+   }
+  
+     
+  .logo{
     display: block; 
     width: 142px; 
     height: 93px;
     position: absolute;
     bottom: -20px;
     right: -8px;
-     }
+    }
    
-   nav > ul > li .dropdown{
-    display: block;
-    width: 122px; 
-    min-height: 36px; 
-    position: relative;
-   } 
+ 
    
    nav > ul > li> a{
     font-size: 12px;
@@ -119,14 +133,22 @@ display: table;
     background-color: #3e8e41;
      }
    
-   .sep{
-    width: 4px;
-    height: 21px;
-    margin: 0 16px;
-    color: #000000;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    float: right; 
-    }
+.sep {
+  width: 4px;
+  height: 21px;
+  margin: 0 16px;
+  color: #000000;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  float: right; 
+  } 
+
+  nav > ul > li> a> img{
+    width: 17px;
+    position: absolute;
+    top:18px;
+    left:730px
+  }
+
 div .search{
   position: relative;
   width: 200px;
