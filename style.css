@@ -115,7 +115,8 @@ nav>ul>li>a {
 }
 
 .dropdown>.inner>li>a:hover {
-  color: #005ca0;;
+  color: #005ca0;
+  ;
   background-color: #e6e5e4;
   display: block;
   padding: 5px 0;
@@ -124,7 +125,7 @@ nav>ul>li>a {
 }
 
 .inner {
-  display: none; 
+  display: none;
   background-color: #909090;
   min-width: 160px;
   position: absolute;
@@ -153,7 +154,8 @@ nav>ul>li>a {
 
 .dropdown:hover {
   text-decoration: underline;
-  color: #005ca0;;
+  color: #005ca0;
+  
 }
 
 .sep {
@@ -296,7 +298,7 @@ div .upper-rectangle {
   height: 110px;
 }
 
-.top{
+.top {
   position: absolute;
   z-index: 5;
   right: 23px;
@@ -304,9 +306,9 @@ div .upper-rectangle {
   width: 250px;
   height: 110px;
   display: none;
-
 }
-.cube:hover .top{
+
+.cube:hover .top {
   display: inline;
 }
 
