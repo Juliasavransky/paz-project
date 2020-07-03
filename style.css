@@ -155,7 +155,6 @@ nav>ul>li>a {
 .dropdown:hover {
   text-decoration: underline;
   color: #005ca0;
-  
 }
 
 .sep {
@@ -259,9 +258,24 @@ div .upper-rectangle {
   line-height: 1;
 }
 
+.rectangle>a .top {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 42px;
+  z-index: 99;
+  width: 10px;
+  height: 10px;
+}
+
+.rectangle>a:hover .top {
+  display: inline;
+}
+
 .rectangle>a:hover {
   color: #005ca0;
   text-decoration: underline;
+  display: inline;
 }
 
 .rectangle>img {
