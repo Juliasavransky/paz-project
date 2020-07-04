@@ -455,6 +455,8 @@ footer {
 
 /*********************************** page 2****************** */
 
+
+
 .page2 {
   position: relative;
 }
@@ -467,21 +469,30 @@ footer {
 
 .form {
   position: absolute;
-  top: 70px;
-  right: 180px;
-  color: red;
+  top: 160px;
+  right: 50px;
   width: 350px;
   height: 333px;
+  z-index:2;
 }
 .container{
   position:absolute;
+  font-size:12px;
+  padding:75px;
+
 }
-.page2> .form> .row> textarea{
+.container> h2{
+  font-size: 15px;
+  font-weight:bold;
+  margin-top:30px
+}
+.container> p{
+  display: block;
   color: #6d6d6d;
-  width: 235px;
-  height: 100px;
-  padding: 3px;
-  border: 1px solid #808992;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 11px 0;
 }
 
 .page2> .form> .row> label{
@@ -493,15 +504,37 @@ footer {
 .col-25 {
   float: right;
   width: 25%;
+  position:absolute;
 }
 
 .col-75 {
-  float: right;
+  float: left;
   width: 75%;
+}
+.row> textarea{
+  color: #6d6d6d;
+  width: 235px;
+  height: 100px;
+  padding: 3px;
+  border: 1px solid #808992;
+  margin-top:10px;
+  float:left
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+button{
+  float:left;
+  margin-top:7px;
+  font-size:14px;
+  background-color:#005ca0;
+}
+
+.img{
+  position:absolute;
+  top:250px;
+  right:50px;
 }
