@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>paz-form</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -97,71 +97,61 @@
                     <img class="sep" src="/img/menu_sep.png" alt="">
                 </ul>
             </nav>
-
         </div>
-        <div class="upper-rectangle">
-            <div class="rectangle">
+        <div class="page2">
+            <div class="selected">
+                <h2>צור קשר</h2>
+                <div>
+                    <a href="#">עמוד הבית > <span> צור קשר</span></a>
+                    <div class="line"></div>
+                </div>
+                <div>
+                    <form class="form">
+                        <div class="container">
+                            <h2>צור קשר</h2>
+                            <span>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם</span>
+                            <span>* השדות המסומנים בכוכבית (*) הינם שדות חובה</span>
+                            <div class="row"><label class="col-25" for="fname">שם פרטי* </label><input class="col-75"
+                                    id="fname" type="text" maxlength="20" name="fname"></div>
 
-                <img src="/img/tahana.JPG" alt="">
-                <img class="text-box" src="/img/hp_tab_text_bg.png" alt="" srcset="">
-                <h3>קמאונאות ומסחר</h3>
-                <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות,
-                    יעילות ומובילות. החטיבה פועלת...</p>
-                <a href="#"> קרא עוד <img src="/img/read_more_yellow.png" alt="">
-                    <img class="top" src="/img/read_more_blue.png" alt=""> </a>
-            </div>
+                            <div class="row"><label class="col-25" for="lname">*שם משפחה </label><input class="col-75"
+                                    id="lname" type="text" maxlength="20" required></div>
 
-            <div class="rectangle">
-                <img src="/img/nof.jpg" alt="">
-                <img class="text-box" src="/img/hp_tab_text_bg.png" alt="" srcset="">
-                <h3> זיקוק</h3>
-                <p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד,
-                    הכוללת ייצור תזקיקי נפט...</p>
-                <a href="#"> קרא עוד <img src="/img/read_more_yellow.png" alt=""> <img class="top"
-                        src="/img/read_more_blue.png" alt=""> </a>
-            </div>
+                            <div class="row"><label class="col-25" for="id">*טלפון </label><input class="col-75" id="id"
+                                    type="text" maxlength="9" pattern="[0-9]{9}" required></div>
 
-            <div class="rectangle">
-                <img src="/img/oved.jpg" alt="">
-                <img class="text-box" src="/img/hp_tab_text_bg.png" alt="" srcset="">
-                <h3>תעשיות ושרותים</h3>
-                <p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של
-                    נפט, ומובילות את השוק...</p>
-                <a href="#">קרא עוד
-                    <img src="/img/read_more_yellow.png" alt=""> <img class="top" src="/img/read_more_blue.png" alt="">
-                </a>
-            </div>
+                            <div class="row"><label class="col-25" for="email">E-mail* </label><input class="col-75"
+                                    id="email" type="email"></div>
 
-        </div>
-        <div class="baners">
-            <div class="cube">
-                <img src="/img/small_cube_bg.png" alt="">
-                <img class="top" src="/img/banner_atar.jpg" alt="">
-                <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
-                <img class="pic" src="/img/banner2.jpg" alt="">
-                <a href="#"> לפרטים נוספים <img src="/img/read_more_yellow.png" alt=""> <img class="top-b"
-                        src="/img/read_more_blue.png" alt=""> </a>
-            </div>
-            <div class="cube">
-                <img src="/img/small_cube_bg.png" alt="">
-                <img class="top" src="/img/banner3.jpg" alt="">
-                <h3>yellow click&pick;</h3>
-                <img class="pic" src="/img/banner4.jpg" alt="">
-                <a href="#"> לפרטים נוספים <img src="/img/read_more_yellow.png" alt=""> <img class="top-b"
-                        src="/img/read_more_blue.png" alt=""> </a>
-            </div>
-            <div class="cube">
-                <img src="/img/small_cube_bg.png" alt="">
-                <h3>התחנות שלנו בדרך שלך</h3>
-                <img id="mapa" src="/img/mapa.jpg" alt="">
-                <ul>
-                    <li><a href="#"> צפון <img src="/img/read_more_yellow.png" alt=""><img class="top-b"
-                                src="/img/read_more_blue.png" alt=""> </a></li>
-                    <li><a href="#"> מרכז <img src="/img/read_more_yellow.png" alt=""><img class="top-b"
-                                src="/img/read_more_blue.png" alt=""> </a></li>
-                    <li><a href="#"> דרום <img src="/img/read_more_yellow.png" alt=""><img class="top-b"
-                                src="/img/read_more_blue.png" alt=""> </a></li>
-                </ul>
+                            <div class="row"><textarea rows="5"></textarea></div>
+
+                            <div class="row"><button type="button">שלח</button></div>
+                        </div>
+                        <img src="/img/contact_form_bg.png" alt="">
+                    </form>
+
+                    <div class="text-cube">
+                        <div>
+                            <img src="/img/small_cube_bg.png" alt="">
+                            <h3> פרטי יצירת קשר</h3>
+                            <p>פז חברת נפט בע"מ </p>
+                            <p>יורו פארק, בניין הולנד <br>קיבוץ יקום 60972<br>טל. שירות לקוחות
+                                1-800-774-774<br>פקס.09-8641714<br> </p>
+                        </div>
+                        <div>
+                            <img src="/img/small_cube_bg.png" alt="">
+                            <h3>עוד בפאז</h3>
+                            <p> ליצירת קשר עם דוברות פז</p>
+                            <a href="#">לחץ כאן >></a>
+                            <p>רוצים לעבוד בפז?</p>
+                            <a href="#">לחץ כאן >></a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="footer">
@@ -193,6 +183,7 @@
             </footer>
         </div>
     </div>
+
 </body>
 
 </html>
