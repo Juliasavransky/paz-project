@@ -1,0 +1,450 @@
+/******************/
+
+/****** body ******/
+
+/******************/
+
+body {
+  text-align: right;
+  direction: rtl;
+  font-family: 'Arial (Hebrew)', Arial;
+  padding-bottom: 38px;
+  background: #fff padding: 0;
+  margin: 0;
+}
+
+.parts {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 105px;
+  background-color: #909090;
+  position: absolute;
+}
+
+p {
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.margins {
+  width: 900px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+a:focus {
+  outline: thin dotted silver;
+}
+
+a:active {
+  border-width: 1px;
+  border-style: dotted;
+}
+
+ul li {
+  padding: 0 12px 0px 0px;
+  list-style: none;
+  margin-left: 0px;
+  min-height: auto;
+  margin-bottom: 3px;
+}
+
+/*********************************** heder********************** */
+
+.heder {
+  float: right;
+  margin-left: 22px;
+  background-color: #909090;
+  width: 900px;
+  height: 105px;
+  position: relative;
+}
+
+.heder::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav {
+  height: 133px;
+  position: absolute;
+  top: 50px;
+  left: -10px;
+}
+
+nav>ul> {
+  position: absolute;
+}
+
+.dropdown {
+  float: right;
+  height: 100%;
+  display: block;
+  height: 100%;
+}
+
+.dropdown::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+  display: block;
+  width: 142px;
+  height: 93px;
+  position: absolute;
+  bottom: -20px;
+  right: -22px;
+}
+
+nav>ul>li>a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dropdown>.inner>li>a {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  height: 15px;
+}
+
+.dropdown>.inner>li>a:hover {
+  color: #005ca0;
+  ;
+  background-color: #e6e5e4;
+  display: block;
+  padding: 5px 0;
+  outline: thin dotted silver;
+  border-width: 1px;
+}
+
+.inner {
+  display: none;
+  background-color: #909090;
+  min-width: 160px;
+  position: absolute;
+  z-index: 10;
+  top: 55px;
+}
+
+.inner a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 0;
+  white-space: nowrap;
+  font-size
+}
+
+.inner:hover {
+  background-color: #bcbcbc;
+  display: block;
+}
+
+.dropdown:hover .inner {
+  display: block;
+  background-color: #909090;
+}
+
+.dropdown:hover {
+  text-decoration: underline;
+  color: #005ca0;
+}
+
+.sep {
+  width: 4px;
+  height: 21px;
+  margin: 0 9px;
+  color: #000000;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  float: right;
+}
+
+nav>ul>li>a>img {
+  width: 17px;
+  position: absolute;
+  top: 18px;
+  left: 730px
+}
+
+form {
+  position: absolute;
+  top: 10px;
+  width: 152px;
+  display: block;
+  right: 720px;
+}
+
+#search {
+  position: absolute;
+  top: 0px;
+  height: 25px;
+  width: 186px;
+  left: -18px;
+}
+
+#button {
+  position: absolute;
+  top: 0px;
+  height: 26px;
+  left: -18px;
+}
+
+.search>form>a>label {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 6px;
+  left: 180px;
+}
+
+/******* rectangle *******/
+
+div .upper-rectangle {
+  display: flex;
+  Justify-content: flex-end;
+}
+
+.rectangle {
+  margin-top: 130px;
+  width: 293px;
+  height: 355px;
+  padding: 7px;
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 257px;
+  right: 14px;
+}
+
+.rectangle>h3 {
+  position: absolute;
+  top: 248px;
+  right: 22px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rectangle>p {
+  position: absolute;
+  width: 230px;
+  top: 280px;
+  right: 22px;
+  color: white;
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 1;
+}
+
+.rectangle>a {
+  position: absolute;
+  width: 230px;
+  top: 330px;
+  right: 200px;
+  color: white;
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 1;
+}
+
+.rectangle>a .top {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 42px;
+  z-index: 99;
+  width: 10px;
+  height: 10px;
+}
+
+.rectangle>a:hover .top {
+  display: inline;
+}
+
+.rectangle>a:hover {
+  color: #005ca0;
+  text-decoration: underline;
+  display: inline;
+}
+
+.rectangle>img {
+  border-radius: 0 0 10% 0;
+}
+
+/*** baners ***/
+
+.baners {
+  display: flex;
+  Justify-content: flex-end;
+}
+
+.cube {
+  position: relative;
+  padding: 6px;
+  margin-top: 6px;
+}
+
+.cube>h3 {
+  position: absolute;
+  top: 2px;
+  right: 26px;
+  font-size: 14px;
+  color: #575757;
+}
+
+.cube>.pic {
+  position: absolute;
+  z-index: 1;
+  right: 23px;
+  top: 50px;
+  width: 250px;
+  height: 110px;
+}
+
+.top {
+  position: absolute;
+  z-index: 5;
+  right: 23px;
+  top: 50px;
+  width: 250px;
+  height: 110px;
+  display: none;
+}
+
+.cube:hover .top {
+  display: inline;
+}
+.top-b{
+  display: none;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  z-index: 99;
+  width:10px;
+  height:10px;
+}
+.cube:hover .top-b {
+  display: inline;
+}
+.cube>a {
+  position: absolute;
+  right: 180px;
+  top: 180px;
+  color: #72716d;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.cube>a:hover {
+  color: #005ca0;
+}
+
+#mapa {
+  position: absolute;
+  z-index: 1;
+  right: 200px;
+  top: 45px;
+  width: 73px;
+  height: 168px;
+}
+
+.cube>ul>li:first-child>a {
+  position: absolute;
+  right: 42px;
+  top: 60px;
+  color: #72716d;
+  font-size: 14px;
+}
+
+.cube>ul>li:nth-child(2)>a {
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  color: #72716d;
+  font-size: 13px;
+}
+
+.cube>ul>li:nth-child(3)>a {
+  position: absolute;
+  right: 41px;
+  top: 100px;
+  color: #72716d;
+  font-size: 13px;
+}
+
+.cube>ul>li>a:hover {
+  color: #005ca0;
+}
+
+.cube>ul>li>a {
+  text-decoration: underline;
+}
+
+/********footer*********/
+
+footer {
+  width: 100%;
+  height: 38px;
+  position: fixed;
+  z-index: 999999;
+  bottom: 0px;
+  background-color: #808080;
+}
+
+.manu {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.manu>ul {
+  color: #fff;
+}
+
+.manu>ul>li>a {
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.manu>ul>li>a::after {
+  clear: both;
+}
+
+.manu>ul>li>a:hover {
+  color: #005ca0;
+}
+
+#red {
+  color: red;
+}
+
+#red:hover {
+  color: #005ca0;
+}
+
+.manu>ul>li>.sep {
+  margin: 0 5px;
+  color: white;
+}
+
+.manu>ul>li>a>img {
+  display: block;
+  position: relative;
+  bottom: 2px;
+  width: 18px;
+  height: 18px;
+}
