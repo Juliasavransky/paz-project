@@ -207,7 +207,7 @@ form {
   left: 180px;
 }
 
-/******* rectangle *******/
+/******* rectangle **********************************************************/
 
 div .upper-rectangle {
   display: flex;
@@ -395,7 +395,7 @@ div .upper-rectangle {
   text-decoration: underline;
 }
 
-/********footer*********/
+/********footer**********************************************************/
 
 footer {
   width: 100%;
@@ -453,7 +453,7 @@ footer {
   height: 18px;
 }
 
-/*********************************** page 2****************** */
+/*********************************** page 2******************************** */
 
 .page2 {
   position: relative;
@@ -537,7 +537,7 @@ button {
   right: 50px;
 }
 
-.part-up {
+.contact-part {
   display: block;
   width: 110px;
   height: 36px;
@@ -571,13 +571,4 @@ button {
 .line {
   border-bottom: 1px black solid;
   width: 500px;
-}
-
-.arow{
-  border:solid 1px black;
-  width:122px;
-  height:37px;
-  position:absolute;
-  top:100px;
-  left:780px;
 }
