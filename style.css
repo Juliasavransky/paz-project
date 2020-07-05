@@ -458,15 +458,21 @@ footer {
   width: 900px;
   height: 900px;
   flex-direction: column;
-  margin: 0 190px 0 190px;
+  margin: 0 130px 0 130px;
   border: 1px solid rgb(196, 148, 241);
 }
 
 .contact {
   display: flex;
   flex-direction: column;
-  height: 130px;
   border: 1px solid #E91E63;
+}
+
+.contact-part {
+  display: flex;
+  Justify-content: space-around;
+  flex-direction: column;
+  height: 130px;
 }
 
 .container {
@@ -475,18 +481,23 @@ footer {
   width: 900px;
   height: 500px;
   border: 1px solid rgb(22, 234, 31);
+  Justify-content: space-around;
 }
 
 .text-cube {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(196, 148, 241);
+  Justify-content: space-between;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(196, 148, 241);
+  height: 390px;
+  width: 360px;
+  Justify-content: space-evenly;
 }
 
 .form-text {
@@ -505,10 +516,32 @@ footer {
   display: flex;
   flex-direction: row;
   border: 1px solid rgb(196, 148, 241);
+  Justify-content: space-around;
 }
 
 .text {
   display: flex;
-  flex-direction: row;
   border: 1px solid rgb(196, 148, 241);
+  height: 180px;
+  width: 290px;
+  flex-direction: column;
+  Justify-content: space-around;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  Justify-content: space-around;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  Justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  Justify-content: space-around;
 }
