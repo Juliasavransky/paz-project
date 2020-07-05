@@ -71,10 +71,6 @@ nav {
   left: -10px;
 }
 
-nav>ul> {
-  position: absolute;
-}
-
 .dropdown {
   float: right;
   height: 100%;
@@ -159,7 +155,6 @@ nav>ul>li>a {
   height: 21px;
   margin: 0 9px;
   color: #000000;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   float: right;
 }
 
@@ -167,10 +162,10 @@ nav>ul>li>a>img {
   width: 17px;
   position: absolute;
   top: 18px;
-  left: 760px
+  left: 730px
 }
 
-form {
+.search-in {
   position: absolute;
   top: 10px;
   width: 152px;
@@ -186,7 +181,7 @@ form {
   left: -18px;
 }
 
-input[type=text] {
+#english {
   border-radius: 0 10px 0 0;
   height: 24px;
 }
@@ -198,7 +193,7 @@ input[type=text] {
   left: -18px;
 }
 
-.search>form>a>label {
+.search>.search-in>a>label {
   font-size: 14px;
   font-weight: bold;
   color: white;
@@ -411,7 +406,7 @@ footer {
   font-size: 13px;
   margin-top: 16px;
   position: relative;
-  right: 130px;
+  right: 240px;
 }
 
 .manu>ul {
@@ -444,7 +439,7 @@ footer {
 }
 
 .sep {
-  margin: 0 3px;
+  margin: 0 2px;
   color: white;
 }
 
@@ -458,22 +453,62 @@ footer {
 
 /*********************************** page 2******************************** */
 
-.page2{
+.page2 {
   display: flex;
+  width: 900px;
+  height: 900px;
+  flex-direction: column;
+  margin: 0 190px 0 190px;
+  border: 1px solid rgb(196, 148, 241);
 }
-.container{
+
+.contact {
   display: flex;
+  flex-direction: column;
+  height: 130px;
+  border: 1px solid #E91E63;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 500px;
+  border: 1px solid rgb(22, 234, 31);
+}
+
+.text-cube {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(196, 148, 241);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(196, 148, 241);
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(196, 148, 241);
+}
+
+.vflex {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(196, 148, 241);
 }
 
 .flex {
   display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(196, 148, 241);
 }
-.vflex {
+
+.text {
   display: flex;
-  flex-direction: column;
-}
-form {
-  border-radius: 0 20px 0 0;
-  width: 360px;
-  height: 385px;
+  flex-direction: row;
+  border: 1px solid rgb(196, 148, 241);
 }
