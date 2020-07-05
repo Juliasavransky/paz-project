@@ -1,8 +1,4 @@
-/******************/
-
 /****** body ******/
-
-/******************/
 
 body {
   text-align: right;
@@ -44,7 +40,7 @@ a:active {
 }
 
 ul li {
-  padding: 0 12px 0px 0px;
+  padding: 0 12px 0px 12px;
   list-style: none;
   margin-left: 0px;
   min-height: auto;
@@ -117,10 +113,12 @@ nav>ul>li>a {
 
 .dropdown>.inner>li>a:hover {
   color: #005ca0;
-  ;
-  background-color: #e6e5e4;
   display: block;
-  padding: 5px 0;
+  border-width: 1px;
+}
+
+.dropdown>.inner>li:hover {
+  background-color: #e6e5e4;
   outline: thin dotted silver;
   border-width: 1px;
 }
@@ -128,10 +126,9 @@ nav>ul>li>a {
 .inner {
   display: none;
   background-color: #909090;
-  min-width: 160px;
   position: absolute;
   z-index: 10;
-  top: 55px;
+  padding: 0;
 }
 
 .inner a {
@@ -140,7 +137,6 @@ nav>ul>li>a {
   height: 100%;
   padding: 5px 0;
   white-space: nowrap;
-  font-size
 }
 
 .inner:hover {
@@ -171,7 +167,7 @@ nav>ul>li>a>img {
   width: 17px;
   position: absolute;
   top: 18px;
-  left: 730px
+  left: 760px
 }
 
 form {
@@ -190,9 +186,14 @@ form {
   left: -18px;
 }
 
+input[type=text] {
+  border-radius: 0 10px 0 0;
+  height: 24px;
+}
+
 #button {
   position: absolute;
-  top: 0px;
+  top: 1.5px;
   height: 26px;
   left: -18px;
 }
@@ -407,10 +408,10 @@ footer {
 }
 
 .manu {
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 16px;
-  position:relative;
-  right:130px;
+  position: relative;
+  right: 130px;
 }
 
 .manu>ul {
@@ -443,7 +444,7 @@ footer {
 }
 
 .sep {
-  margin: 0 4px;
+  margin: 0 3px;
   color: white;
 }
 
@@ -456,87 +457,6 @@ footer {
 }
 
 /*********************************** page 2******************************** */
-
-.page2 {
-  position: relative;
-}
-
-.contact-part {
-  display: block;
-  width: 110px;
-  height: 36px;
-  padding-right: 12px;
-  font-size: 13px;
-  margin-bottom: 4px;
-  color: #5c5c5c;
-  line-height: 32px;
-}
-
-.contact-part>img {
-  position: absolute;
-  top: 150px;
-  left: 790px;
-}
-
-.contact-part>h2 {
-  position: absolute;
-  top: 186px;
-  left: 370px;
-  width: 500px;
-  border-bottom: 1px solid black;
-}
-
-.contact-part>h3 {
-  position: absolute;
-  top: 140px;
-  left: 850px;
-  font-size:13px;
-  font-weight:300;
-}
-
-.contact-part >a{
-  position: absolute;
-  top: 150px;
-  left: 660px;
-  font-size:13px;
-}
-
-.text-cube {
-  position: absolute;
-  top: 150px;
-  right: 610px;
-}
-
-.form {
-  position: absolute;
-  top: 160px;
-  right: 50px;
-  width: 350px;
-  height: 333px;
-  z-index: 2;
-}
-
-.container {
-  position: absolute;
-  font-size: 12px;
-  padding: 75px;
-}
-
-.container>h2 {
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 30px;
-  color: #005ca0;
-}
-
-.container>p {
-  display: block;
-  color: #6d6d6d;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1.2;
-  margin: 11px 0;
-}
 
 .col-25 {
   float: right;
@@ -571,29 +491,4 @@ button {
   float: left;
   font-size: 14px;
   background-color: #005ca0;
-}
-
-.img {
-  position: absolute;
-  top: 250px;
-  right: 50px;
-}
-
-.text {
-  z-index: 3;
-  font-size: 13px;
-  color: #6d6d6d;
-}
-
-.cube2 {
-  width: 248px;
-  height: 142px;
-  padding: 18px 22px 15px;
-}
-
-.text>h3 {
-  font-size: 15px;
-  font-weight: bold;
-  color: #005ca0;
-  margin-bottom: 10px;
 }
