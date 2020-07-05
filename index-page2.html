@@ -109,29 +109,30 @@
                         <a href="#"> עמוד הבית > צור קשר</a>
                     </div>
 
-                    <div>
-                        <form class="container">
-                            <div class="img"><img src="/img/contact_form_bg.png" alt=""></div>
-                            <div class="form">
+                    <div class="container">
+                        <form class="form">
+                            <!-- <div class="img" ><img src="/img/contact_form_bg.png" alt=""> -->
+                            <div class="vflex">
 
                                 <h2>צור קשר</h2>
                                 <p>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם</p>
                                 <span>* השדות המסומנים בכוכבית (*) הינם שדות חובה</span>
-                                <div>
-                                    <div class="label">
-                                        <label class="col-25" for="fname">שם פרטי* </label>
-                                        <label class="col-25" for="lname">*שם משפחה </label>
-                                        <label class="col-25" for="id">*טלפון </label>
-                                        <label class="col-25" for="email">E-mail* </label>
+                                <div class="vflex" id="inputContainer">
+                                    <div class="flex">
+                                        <div class="label vflex">
+                                            <label  for="fname">שם פרטי* </label>
+                                            <label  for="lname">*שם משפחה </label>
+                                            <label  for="id">*טלפון </label>
+                                            <label  for="email">E-mail* </label>
+                                        </div>
 
-                                    </div>
-
-                                    <div class="input">
-                                        <input class="col-75" id="fname" type="text" maxlength="20" name="fname">
-                                        <input class="col-75" id="lname" type="text" maxlength="20" required>
-                                        <input class="col-75" id="id" type="text" maxlength="9" pattern="[0-9]{9}"
-                                            required>
-                                        <input class="col-75" id="email" type="email">
+                                        <div class="input vflex">
+                                            <input  id="fname" type="text" maxlength="20" name="fname">
+                                            <input  id="lname" type="text" maxlength="20" required>
+                                            <input  id="id" type="text" maxlength="9" pattern="[0-9]{9}"
+                                                required>
+                                            <input  id="email" type="email">
+                                        </div>
                                     </div>
                                     <div class="button">
                                         <textarea rows="5"></textarea>
@@ -139,6 +140,7 @@
                                     </div>
                                 </div>
                             </div>
+                        <!-- </div> -->
                         </form>
 
                         <div class="text-cube">
@@ -157,11 +159,11 @@
                             </div>
                         </div>
                         <div class="cube2">
-                            <div><img src="/img/small_cube_bg.png" alt=""></div>
-                            <div><img src="/img/small_cube_bg.png" alt=""></div>
+                            <!-- <div><img src="/img/small_cube_bg.png" alt=""></div> -->
+                            <!-- <div><img src="/img/small_cube_bg.png" alt=""></div> -->
                         </div>
 
-                    </div>
+                    </div> <!--#container-->
                 </div>
             </div>
 

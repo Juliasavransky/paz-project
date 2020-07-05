@@ -458,37 +458,22 @@ footer {
 
 /*********************************** page 2******************************** */
 
-.col-25 {
-  float: right;
-  width: 25%;
-  position: absolute;
-  margin-right: -10px;
+.page2{
+  display: flex;
+}
+.container{
+  display: flex;
 }
 
-.col-75 {
-  float: left;
-  width: 65%;
-  margin: 3px;
+.flex {
+  display: flex;
 }
-
-.row>textarea {
-  color: #6d6d6d;
-  width: 235px;
-  height: 100px;
-  padding: 3px;
-  border: 1px solid #808992;
-  margin-top: 10px;
-  float: left
+.vflex {
+  display: flex;
+  flex-direction: column;
 }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-button {
-  float: left;
-  font-size: 14px;
-  background-color: #005ca0;
+form {
+  border-radius: 0 20px 0 0;
+  width: 360px;
+  height: 385px;
 }
