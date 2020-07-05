@@ -532,16 +532,61 @@ footer {
   display: flex;
   flex-direction: column;
   Justify-content: space-around;
+  font-size: 12px;
+  color: #6d6d6d;
 }
 
 .input {
   display: flex;
   flex-direction: column;
   Justify-content: space-around;
+  width: 160px;
+  padding: 3px;
 }
 
 .button {
   display: flex;
   flex-direction: column;
   Justify-content: space-around;
+  float: right;
 }
+
+.button>textarea {
+  color: #6d6d6d;
+  width: 235px;
+  height: 100px;
+  padding: 3px;
+  border: 1px solid #808992;
+  margin: 6px;
+}
+
+.button>button {
+  font-size: 14px;
+  color: #fff;
+  padding: 0 4px;
+  background-color: #005ca0;
+  width: 40px;
+  height: 20px;
+  margin: 6px;
+}
+
+.form>.form-text>h2 {
+  color: #005ca0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form>.form-text>p {
+  color: #6d6d6d;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 5px 0;
+}
+
+.form>.form-text>span {
+  color: #72716d;
+  font-size: 12px;
+}
+
+.label {}
