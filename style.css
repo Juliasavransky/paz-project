@@ -453,12 +453,13 @@ footer {
 
 /*********************************** page 2******************************** */
 
+
 .page2 {
   display: flex;
   width: 900px;
   height: 900px;
   flex-direction: column;
-  margin: 0 350px 0 100px;
+  margin: 0 250px 0 0;
 }
 
 .contact {
@@ -488,17 +489,22 @@ footer {
   display: flex;
   flex-direction: column;
   Justify-content: space-around;
+  margin:15px;
+
 }
 
 .form {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(80, 78, 78);
-  height: 390px;
+  height: 420px;
   width: 360px;
   Justify-content: space-evenly;
   border-radius: 0 20px 0 0;
   margin-top: 44px;
+  padding: 10px 20px;
+  margin: 30px 0;
+  background-image: linear-gradient(white, #eee);
 }
 
 .form-text {
@@ -526,6 +532,7 @@ footer {
   Justify-content: space-around;
   padding:18px 22px;
   border-radius:0 20px 0 0;
+  background-image: linear-gradient(white, #eee);
 }
 
 .label {
@@ -534,6 +541,8 @@ footer {
   Justify-content: space-around;
   font-size: 12px;
   color: #6d6d6d;
+  height: 110px;
+
 }
 
 .input {
@@ -542,6 +551,7 @@ footer {
   Justify-content: space-around;
   width: 160px;
   padding: 3px;
+  
 }
 
 .button {
@@ -551,23 +561,24 @@ footer {
   float: right;
 }
 
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+height:120px;
+margin:0 30px;
+
+}
+
 .button>textarea {
   color: #6d6d6d;
+  display:flex
   width: 235px;
-  height: 100px;
+  height: 120px;
   padding: 3px;
   border: 1px solid #808992;
   margin: 6px;
-}
 
-.button>button {
-  font-size: 14px;
-  color: #fff;
-  padding: 0 4px;
-  background-color: #005ca0;
-  width: 40px;
-  height: 20px;
-  margin: 6px;
 }
 
 .form>.form-text>p {
@@ -581,6 +592,7 @@ footer {
 .form>.form-text>span {
   color: #72716d;
   font-size: 12px;
+
 }
 
 .text> h3, .form-text >h2{
@@ -599,6 +611,10 @@ footer {
 .text> p{
   font-size: 13px;
   color: #6d6d6d;
+  height:50px;
+  width:150px;
+  display:flex;
+  align-items:flex-end;
 }
 .text> a{
   text-decoration: none;
@@ -611,13 +627,13 @@ footer {
   margin-bottom: 12px;
   padding-bottom: 4px;
   border-bottom:1px solid #6d6d6d
+
 }
 .out{
   display:flex;
   border:1px solid black;
   Justify-content: flex-start;
   margin:50px 0 0 60px;
-  
 }
 
 
