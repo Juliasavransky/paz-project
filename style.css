@@ -453,7 +453,6 @@ footer {
 
 /*********************************** page 2******************************** */
 
-
 .page2 {
   display: flex;
   width: 900px;
@@ -466,7 +465,7 @@ footer {
   display: flex;
   flex-direction: column;
   Justify-content: flex-start;
-  flex-direction:row;
+  flex-direction: row;
 }
 
 .contact-part {
@@ -489,8 +488,7 @@ footer {
   display: flex;
   flex-direction: column;
   Justify-content: space-around;
-  margin:15px;
-
+  margin: 15px;
 }
 
 .form {
@@ -530,8 +528,8 @@ footer {
   width: 290px;
   flex-direction: column;
   Justify-content: space-around;
-  padding:18px 22px;
-  border-radius:0 20px 0 0;
+  padding: 18px 22px;
+  border-radius: 0 20px 0 0;
   background-image: linear-gradient(white, #eee);
 }
 
@@ -542,7 +540,6 @@ footer {
   font-size: 12px;
   color: #6d6d6d;
   height: 110px;
-
 }
 
 .input {
@@ -551,34 +548,40 @@ footer {
   Justify-content: space-around;
   width: 160px;
   padding: 3px;
-  
 }
 
 .button {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  height: 120px;
+  margin: 0 30px;
   Justify-content: space-around;
-  float: right;
-}
-
-.button {
-  display: flex;
-  flex-direction: column;
-  align-items:flex-end;
-height:120px;
-margin:0 30px;
-
 }
 
 .button>textarea {
   color: #6d6d6d;
-  display:flex
+  display: flex;
   width: 235px;
   height: 120px;
-  padding: 3px;
+  padding: 30px;
   border: 1px solid #808992;
   margin: 6px;
+}
 
+.button>button {
+  display: flex;
+  color: #fff;
+  background-color: #3F51B5;
+  margin-left: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0 5px 0 0;
+  align-self: flex-end;
+  border: 1px solid #73bbd3;
+  background-image: linear-gradient(#afebff, #008CBA);
+  width: 50px;
+  margin-top: 7px;
 }
 
 .form>.form-text>p {
@@ -592,48 +595,54 @@ margin:0 30px;
 .form>.form-text>span {
   color: #72716d;
   font-size: 12px;
-
 }
 
-.text> h3, .form-text >h2{
+.text>h3, .form-text>h2 {
   font-size: 15px;
   font-weight: bold;
   color: #005ca0;
   margin-bottom: 10px;
-  border-bottom:1px solid #6d6d6d;
+  border-bottom: 1px solid #6d6d6d;
 }
 
-.text> h4{
+.text>h4 {
   font-size: 13px;
   color: #6d6d6d;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
-.text> p{
+
+.text>p {
   font-size: 13px;
   color: #6d6d6d;
-  height:50px;
-  width:150px;
-  display:flex;
-  align-items:flex-end;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
 }
-.text> a{
+
+.text>a {
   text-decoration: none;
   color: rgb(0, 0, 238);
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
-.contact-part>h2{
+
+.contact-part>h2 {
   font-size: 15px;
   font-weight: bold;
   border-bottom: 1px solid #cbcbcb;
   margin-bottom: 12px;
   padding-bottom: 4px;
-  border-bottom:1px solid #6d6d6d
-
+  border-bottom: 1px solid #6d6d6d
 }
-.out{
-  display:flex;
-  border:1px solid black;
+
+.out {
+  display: flex;
   Justify-content: flex-start;
-  margin:50px 0 0 60px;
+  margin: 50px 0 0 60px;
 }
-
-
