@@ -190,7 +190,7 @@ nav>ul>li>a>img {
   position: absolute;
   top: 1.5px;
   height: 26px;
-  left: -18px;
+  left: -16px;
 }
 
 .search>.search-in>a>label {
@@ -279,7 +279,7 @@ div .upper-rectangle {
   border-radius: 0 0 10% 0;
 }
 
-/*** baners ***/
+/*** baners **********************************************************************/
 
 .baners {
   display: flex;
@@ -406,7 +406,7 @@ footer {
   font-size: 13px;
   margin-top: 16px;
   position: relative;
-  right: 240px;
+  right: 120px;
 }
 
 .manu>ul {
